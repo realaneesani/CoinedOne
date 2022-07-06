@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_accessibility" />
 
     <EditText
-        android:hint="www."
+        android:hint="www.instagram.com"
         android:layout_marginTop="15dp"
         android:id="@+id/edt_input_url"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:id="@+id/tv_help"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="For example www.facebook.com"
+        android:text="For example www.instagram.com"
         app:layout_constraintTop_toBottomOf="@+id/edt_input_url" />
     <TextView
         android:layout_marginTop="15dp"
@@ -60,4 +60,20 @@
         android:text="Apply"
         app:layout_constraintTop_toBottomOf="@+id/tv_help2"
         tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is an demo app for job interview.
+
+\nI intentionly didn't made the UI components. Because i had enough experience on making the PERFECT APP for interview and not getting a call back. And them taking advantage of my work.
+
+So I've only made the base system to work. This base working is puerly inspired from an arab coder.
+
+Solution: You can either redirect to any other website or run an activty from background \n \n #NoHardFeelings \n \n Thank You"
+        app:layout_constraintTop_toBottomOf="@+id/btn_accessibility" />
+
+
 </LinearLayout>
