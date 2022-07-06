@@ -9,3 +9,8 @@ So I've only made the base system to work. This base working is puerly inspired 
 
 
 Solution: You can either redirect to any other website or run an activty from background
+
+
+I'll make it clear why there is 2 solution on the next round.
+
+Thanks & Regards
