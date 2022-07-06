@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CoinedOne</string>
+    <string name="accessibility_service_description">Restrict User</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grant Permission"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/tv_restrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the address you want to restrict"
+        app:layout_constraintTop_toBottomOf="@+id/btn_accessibility" />
+
+    <EditText
+        android:hint="www."
+        android:layout_marginTop="15dp"
+        android:id="@+id/edt_input_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_restrict" />
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/tv_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For example www.facebook.com"
+        app:layout_constraintTop_toBottomOf="@+id/edt_input_url" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:id="@+id/tv_help2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_help" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/btn_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        app:layout_constraintTop_toBottomOf="@+id/tv_help2"
+        tools:layout_editor_absoluteX="20dp" />
+</LinearLayout>
